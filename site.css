@@ -2,4 +2,74 @@
     margin: 50px;
     font-family: Helvetica, sans-serif;
     font-size: 150%;
+    background-color: lightblue;
+}
+
+#submitForm {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#displayPrice {
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center
+}
+
+.wrapper {
+    display: grid;
+    grid-auto-columns: 500px;
+    grid-auto-rows: 70px;
+}
+
+.box1 {
+    margin-left: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.box2 {
+    margin-left: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.box3 {
+    margin-left: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.box4 {
+    margin-left: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.box5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }

@@ -3,20 +3,44 @@
 
 <head>
     <meta charset="utf-8">
-    <title>starter code</title>
+    <title>PROG209HW2</title>
 <link rel="stylesheet" type="text/css" href="site.css">
 </head>
 
 <body>
-<h2>starter project</h2>
+<h2>PIZZA ORDER</h2>
 
-<button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
+<div class="wrapper">
+    
+    <div class="box1" id="radioButtons">
+        <input type="radio" id="small" name="pizzaSize" value="101">
+        <label for="small">Small</label>
+
+        <input type="radio" id="medium" name="pizzaSize" value="102">
+        <label for="medium">Medium</label>
+
+        <input type="radio" id="large" name="pizzaSize" value="103">
+        <label for="large">Large</label>
+    </div>
+    
+    <div class="box2" id="dropdown">
+        <select name="toppings" id="topp">
+            <option value="noTopping" selected>No topping</option>
+            <option value="oneTopping">One topping</option>
+            <option value="twoToppongs">Two toppings</option>
+        </select>
+    </div>
+    
+    <div class="box3" id="submitButton">
+        <button type="button" id="submitForm">Get total price</button>
+    </div>
+    
+    <div class="box4">Your total is $<input type="text" val="starting value" id="displayPrice"></span></div>
+
+    <div class="box5">
+        <img src="pizza.jpg" alt="Pizza" width="500" height="400">
+    </div>
 </div>
-
 <script src="main.js"></script>
 </body>
 
